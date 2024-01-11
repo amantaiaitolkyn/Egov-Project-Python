@@ -1,0 +1,35 @@
+/* Requests.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  div.requests {
+    margin-top: 20px;
+  }
+  
+  div.requests > div {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  div.requests hr {
+    margin: 10px 0;
+  }
+  
+  div.requests p {
+    margin: 5px 0;
+  }
+  
+  /* Style for the buttons (if added) */
+  /* 
+  div.requests div button {
+    margin-right: 10px;
+  } 
+  */
+  

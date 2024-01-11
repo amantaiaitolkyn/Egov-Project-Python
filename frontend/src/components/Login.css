@@ -1,0 +1,135 @@
+/*body {*/
+/*    font-family: 'Arial', sans-serif;*/
+/*    background-color: #f0f0f0;*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.container {*/
+/*    background-color: #ffffff;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*    padding: 20px;*/
+/*    border-radius: 8px;*/
+/*    width: 300px;*/
+/*}*/
+
+/*h2 {*/
+/*    text-align: center;*/
+/*    color: #333333;*/
+/*}*/
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*label {*/
+/*    margin-bottom: 8px;*/
+/*    color: #555555;*/
+/*}*/
+
+/*input {*/
+/*    padding: 8px;*/
+/*    margin-bottom: 16px;*/
+/*    border: 1px solid #cccccc;*/
+/*    border-radius: 4px;*/
+/*    outline: none;*/
+/*}*/
+
+/*button {*/
+/*    background-color: #23802c;*/
+/*    color: #ffffff;*/
+/*    padding: 10px;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: #262d0a;*/
+/*}*/
+
+/*.error-message {*/
+/*    color: #e74c3c;*/
+/*    margin-top: 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+.navbar-custom {
+    background-color: #00b140;
+    padding: 10px 0;
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    border-color: #ced4da;
+}
+
+.form-control:focus {
+    border-color: #00b140;
+    box-shadow: 0 0 0 0.2rem rgba(0, 177, 64, 0.25);
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #00b140;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #009933;
+}
+
+.footer {
+    background-color: #00b140;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.additional-text {
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.green-text {
+    color: #00b140;
+    font-size: 24px;
+}

@@ -1,0 +1,22 @@
+databases==0.8.0
+fastapi==0.104.1
+passlib==1.7.4
+pydantic==2.5.1
+PyJWT==2.8.0
+PyJWT==2.8.0
+# SQLAlchemy==1.4.50
+uvicorn==0.15.0
+python-dotenv==0.19.1
+alembic
+gunicorn
+uvicorn
+asyncpg
+psycopg2-binary
+pyTelegramBotAPI
+requests
+telebot
+kafka
+fpdf
+SQLAlchemy<2.0
+aiogram==2.9.2
+# kafka-lib-tima

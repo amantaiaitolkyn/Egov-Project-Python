@@ -1,0 +1,14 @@
+.request-details {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+  .attributes {
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  

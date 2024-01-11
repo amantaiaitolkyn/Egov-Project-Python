@@ -1,0 +1,56 @@
+/* .has-text-centered {
+    text-align: center;
+}
+
+.m-6 {
+    margin: 20px;
+}
+
+.title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 26px;
+} */
+
+/* .button1:hover {
+    background-color: #262d0a;
+}
+
+.horizontal-line {
+    border: 0.5px solid #ccc;
+    margin: 20px 0;
+}  */
+
+/* Styles for the title */
+.title {
+    color: #23802c;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for links */
+  .links a {
+    color: #23802c;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+    color: #23802c;
+  }
+  
+  /* Style for the logout button */
+  .button1 {
+    background-color: #23802c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button1:hover {
+    background-color: #262d0a;
+  }
+  
