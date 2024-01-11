@@ -21,7 +21,7 @@ Our eGov project aims to revolutionize the way government services are accessed 
 ## INSTALL/RUN
 #### _1 step_:
 ```sh
-git clone https://gitlab.com/di-halyk-academy-adv-python-tima/egov-project.git
+git https://github.com/amantaiaitolkyn/Egov-Project-Python
 ```
 #### _2 step_:
 ```sh
