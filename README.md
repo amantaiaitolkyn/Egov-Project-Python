@@ -14,8 +14,8 @@ Our eGov project aims to revolutionize the way government services are accessed 
 ## Group of developers
 | Full name , ID| Responsible for  | 
 | ------ | ------ |
-| Amantai Aitolkyn , 21B030773 | backend, frontend, kafka, alembic, docker |
-| Amangeldi Amina , 21B031086 | backend, frontend, kafka, alembic,  kafka library|
+|[amantaiaitolkyn](https://github.com/amantaiaitolkyn), 21B030773 | backend, frontend, kafka, alembic, docker |
+|[ami-nt](https://github.com/ami-nt) , 21B031086 | backend, frontend, kafka, alembic,  kafka library|
 | Naryshov Ernar, 20B030306 | backend, telegram bot, email, makefile, CI/CD |
 
 ## INSTALL/RUN
