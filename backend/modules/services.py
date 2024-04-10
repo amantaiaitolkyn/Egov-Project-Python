@@ -44,31 +44,18 @@ async def get_data(bin_value):
         query = _model.request2.insert().values(bin=bin_value,data = detailed_data,BEGIN_DATE = datetime.now(), END_DATE = datetime.now() + timedelta(days=1))
         await DB.execute(query)
     return detailed_data
-def check_company_by_bin(bin: str, lang: str):
-    # First API
-    url1 = f"https://old.stat.gov.kz/api/juridical/counter/api/?bin={bin}&lang={lang}"
 
+def check_company_by_bin(bin: str, lang: str):
+    url = f"https://old.stat.gov.kz/api/juridical/counter/api/?bin={bin}&lang={lang}"
+    print(url)
     try:
-        response1 = requests.get(url1)
-        if response1.status_code == 200:
-            data1 = response1.json()
-            company_exists1 = data1.get("success", False)
-            name1 = data1.get("obj", {}).get("name", "")
-            if company_exists1:
-                return {"exists": company_exists1, "Name": name1}
-        
-        # If the company doesn't exist in the first API, try the second API
-        url2 = "https://gr5.gosreestr.kz/p/ru/api/v1/gr-objects"
-        response2 = requests.get(url2)
-        
-        if response2.status_code == 200:
-            data2 = response2.json()
-            objects = data2.get("Objects", [])
-            for obj in objects:
-                if obj.get("flBin") == bin:
-                    return {"exists": True, "Name": obj.get("flNameRu", "")}
-        
-        # If not found in the second API either, return not exists
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            company_exists = data.get("success", False)
+            obj = data.get("obj", {})
+            name = data.get("obj", {}).get("name", "")
+            return {"exists": company_exists, "Name": name, "Object":obj}
         return {"exists": False, "Name": ""}
     except Exception as e:
         print(e)

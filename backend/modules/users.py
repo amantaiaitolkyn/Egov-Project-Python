@@ -19,3 +19,4 @@ async def get_user(user: _model.User = Depends(get_current_user)):
 @router.get("/profile/")
 async def get_user_info(user: _model.UserRead = Depends(get_user_information)):
     return user
+

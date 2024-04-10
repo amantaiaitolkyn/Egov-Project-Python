@@ -10,9 +10,8 @@ WORKDIR /appp
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install confluent_kafka
-# RUN pip uninstall kafka-lib-tima
-RUN pip install kafka-lib-tima
+
+
 
 FROM base AS production
 

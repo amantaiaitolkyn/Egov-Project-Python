@@ -4,6 +4,7 @@ from sqlalchemy import (JSON, TIMESTAMP, Boolean, Column, DateTime, ForeignKey,
                         Integer, LargeBinary, MetaData, String, Table,
                         UniqueConstraint)
 
+
 metadata = MetaData()
 
 users_info = Table(
