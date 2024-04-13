@@ -13,7 +13,7 @@ async def connect_to_db():
 async def disconnect_from_db():
     await _dbase.DB.disconnect()
 
-TELEGRAM_BOT_TOKEN =
+TELEGRAM_BOT_TOKEN = '6897226082:AAHIKd83Se06Bp-8dd0NKaM-Dw_qffjam2c'
 
 api_url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendDocument'
 
