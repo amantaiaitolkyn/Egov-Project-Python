@@ -2,10 +2,10 @@
 version: '3'
 
 x-env-variables: &env-variables
-  POSTGRES_USER: "postgres"
-  POSTGRES_PASSWORD: "601246"
+  POSTGRES_USER: ""
+  POSTGRES_PASSWORD: ""
   POSTGRES_DB: "egov"
-  DATABASE_URL: "postgresql://postgres:601246@host.docker.internal:5432/egov"
+  DATABASE_URL: ""
 
 services:
 
